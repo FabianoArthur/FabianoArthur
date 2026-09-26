@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 484" width="800" height="484" role="img" aria-labelledby="title desc" lang="pt-BR">
 <title id="title">Como eu entrego com o Claude Code</title>
-<desc id="desc">Você faz o pedido: uma ideia ou um bug. O garçom, a sessão principal do Claude Code, anota o pedido e escreve o doc da tarefa, depois o manda para cozinhas que trabalham em paralelo, cada uma numa sessão tmux com o seu próprio git worktree. O trabalho de cada cozinha passa pelas checagens (testes, lint e build, varredura de segredos e review independente) e vira um pull request com CI verde. O ciclo fecha em você: você revisa e faz o merge.</desc>
+<desc id="desc">Você faz o pedido: uma ideia ou um bug. O garçom, a sessão principal do Claude Code, anota o pedido e escreve o doc da tarefa, depois o manda para cozinhas que trabalham em paralelo, cada uma numa sessão tmux com o seu próprio git worktree. O trabalho de cada cozinha passa pelas checagens (testes, lint e build, varredura de segredos e revisão independente) e vira um pull request com CI verde. O ciclo fecha em você: você revisa e faz o merge.</desc>
 <style>
 text{font-family:ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#1f2328}
 .b{font-size:15px;font-weight:600}
@@ -75,7 +75,7 @@ text{font-family:ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', H
 <circle cx="610" cy="138" r="4" class="ok"/>
 <text x="624" y="142" class="m" text-anchor="start">varredura de segredos</text>
 <circle cx="610" cy="170" r="4" class="ok"/>
-<text x="624" y="174" class="m" text-anchor="start">review independente</text>
+<text x="624" y="174" class="m" text-anchor="start">revisão independente</text>
 <rect x="584" y="250" width="200" height="90" rx="12" class="card"/>
 <text x="684" y="286" class="b" text-anchor="middle">pull request</text>
 <text x="684" y="310" class="m" text-anchor="middle">CI verde, pronto para merge</text>

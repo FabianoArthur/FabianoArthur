@@ -1,4 +1,4 @@
-<p align="right"><a href="README.pt-BR.md">🇧🇷 Leia em português</a></p>
+<p align="right"><a href="README.pt-BR.md">Português</a></p>
 
 # Hi, I'm Fabiano
 

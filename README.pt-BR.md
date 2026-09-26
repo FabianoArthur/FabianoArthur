@@ -1,4 +1,4 @@
-<p align="right"><a href="README.md">🇺🇸 Read in English</a></p>
+<p align="right"><a href="README.md">English</a></p>
 
 # Oi, eu sou o Fabiano
 
@@ -12,7 +12,7 @@ Construo **workflows multiagente para o Claude Code** e, no dia a dia, trabalho 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/assets/how-i-ship.pt-BR-dark.svg">
-  <img src="docs/assets/how-i-ship.pt-BR-light.svg" width="800" alt="Diagrama animado: você faz o pedido; o garçom, a sessão principal do Claude Code, escreve o doc da tarefa e o manda para três cozinhas que trabalham em paralelo, cada uma numa sessão tmux com o seu próprio git worktree; o trabalho passa pelas checagens (testes, lint e build, varredura de segredos, review independente) e vira um pull request com CI verde, que volta para você revisar e fazer o merge.">
+  <img src="docs/assets/how-i-ship.pt-BR-light.svg" width="800" alt="Diagrama animado: você faz o pedido; o garçom, a sessão principal do Claude Code, escreve o doc da tarefa e o manda para três cozinhas que trabalham em paralelo, cada uma numa sessão tmux com o seu próprio git worktree; o trabalho passa pelas checagens (testes, lint e build, varredura de segredos, revisão independente) e vira um pull request com CI verde, que volta para você revisar e fazer o merge.">
 </picture>
 
 O fluxo garçom/cozinha é open source: veja o [claude-code-kitchen](https://github.com/FabianoArthur/claude-code-kitchen).
@@ -24,8 +24,8 @@ O fluxo garçom/cozinha é open source: veja o [claude-code-kitchen](https://git
 | [**claude-code-kitchen**](https://github.com/FabianoArthur/claude-code-kitchen) | Orquestração multiagente garçom/cozinha para o Claude Code: uma sessão tmux por tarefa, git worktrees isolados, checagens determinísticas, até o PR aberto. |
 | [**claude-code-discord-hq**](https://github.com/FabianoArthur/claude-code-discord-hq) | Claude Code pelo celular: servidor do Discord como código, sala de controle no celular e alertas do tipo "só me chame quando precisar". |
 | [**Sala de controle de agentes**](https://github.com/FabianoArthur/Calculadora) | Painel ao vivo de agentes de código trabalhando em paralelo, movido por uma simulação determinística com seed. React + TypeScript. |
-| [**Visualizador de algoritmos**](https://github.com/FabianoArthur/atividades-2) | Algoritmos de ordenação e de caminho animados passo a passo numa grade editável. |
-| [**Arcade em canvas**](https://github.com/FabianoArthur/atividades3) | Mini-jogos clássicos em canvas HTML a 60 fps, com controles de teclado e toque. |
+| [**Visualizador de algoritmos**](https://github.com/FabianoArthur/atividades-2) | Algoritmos de ordenação e de busca de caminhos animados passo a passo numa grade editável. |
+| [**Arcade em canvas**](https://github.com/FabianoArthur/atividades3) | Minijogos clássicos em canvas HTML a 60 fps, com controles de teclado e toque. |
 | [**Playground de regex**](https://github.com/FabianoArthur/aula-1) | Teste uma expressão regular e leia a explicação, em linguagem simples, de cada parte dela. |
 | [**Design system**](https://github.com/FabianoArthur/teste-claude-design) | Componentes React acessíveis sobre design tokens, com temas claro e escuro e site de documentação ao vivo. |
 | [**API de estacionamento**](https://github.com/FabianoArthur/parking-control) | API em Java 21 + Spring Boot 3 para vagas, reservas e tarifação por tempo. |

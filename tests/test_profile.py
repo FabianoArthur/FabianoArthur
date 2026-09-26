@@ -56,6 +56,10 @@ def tracked_files():
     return [ROOT / line for line in out.splitlines() if line]
 
 
+def text_files():
+    return [p for p in tracked_files() if p.suffix in TEXT_SUFFIXES and p.is_file()]
+
+
 class ReadmeTests(unittest.TestCase):
     def test_both_readmes_exist(self):
         for path in READMES.values():
@@ -148,25 +152,19 @@ class DiagramTests(unittest.TestCase):
 
 class PublicHygieneTests(unittest.TestCase):
     def test_no_private_names(self):
-        for path in tracked_files():
-            if path.suffix not in TEXT_SUFFIXES or not path.is_file():
-                continue
+        for path in text_files():
             words = set(re.findall(r"[a-z0-9]+", read(path).lower()))
             hits = {w for w in words if hashlib.sha256(w.encode()).hexdigest()[:16] in FORBIDDEN_WORD_HASHES}
             with self.subTest(file=path.name):
                 self.assertFalse(hits, "private name found")
 
     def test_no_local_paths(self):
-        for path in tracked_files():
-            if path.suffix not in TEXT_SUFFIXES or not path.is_file():
-                continue
+        for path in text_files():
             with self.subTest(file=path.name):
                 self.assertNotRegex(read(path), r"/(Users|home)/[a-z]")
 
     def test_no_email_addresses(self):
-        for path in tracked_files():
-            if path.suffix not in TEXT_SUFFIXES or not path.is_file():
-                continue
+        for path in text_files():
             with self.subTest(file=path.name):
                 self.assertIsNone(
                     re.search(r"[\w.+-]+@(?!users\.noreply\.github\.com)[\w-]+\.[\w.]+", read(path)),

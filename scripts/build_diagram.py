@@ -73,7 +73,7 @@ COPY = {
             "anota o pedido e escreve o doc da tarefa, depois o manda para cozinhas que trabalham "
             "em paralelo, cada uma numa sessão tmux com o seu próprio git worktree. O trabalho de "
             "cada cozinha passa pelas checagens (testes, lint e build, varredura de segredos e "
-            "review independente) e vira um pull request com CI verde. O ciclo fecha em você: "
+            "revisão independente) e vira um pull request com CI verde. O ciclo fecha em você: "
             "você revisa e faz o merge."
         ),
         "you": ("você", "faz o pedido"),
@@ -81,7 +81,7 @@ COPY = {
         "zone": "cozinhas · em paralelo",
         "kitchen": "cozinha",
         "kitchen_sub": "tmux + git worktree",
-        "gates": ("checagens", "testes · lint · build", "varredura de segredos", "review independente"),
+        "gates": ("checagens", "testes · lint · build", "varredura de segredos", "revisão independente"),
         "pr": ("pull request", "CI verde, pronto para merge"),
         "back": "você revisa e faz o merge",
     },
