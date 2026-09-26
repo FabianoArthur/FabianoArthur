@@ -1,0 +1,14 @@
+# local orchestration state
+.orq/
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
