@@ -23,11 +23,11 @@ The waiter/kitchen workflow is open source: see [claude-code-kitchen](https://gi
 |---|---|
 | [**claude-code-kitchen**](https://github.com/FabianoArthur/claude-code-kitchen) | Waiter/kitchen multi-agent orchestration for Claude Code: one tmux session per task, isolated git worktrees, deterministic gates, until the PR is open. |
 | [**claude-code-discord-hq**](https://github.com/FabianoArthur/claude-code-discord-hq) | Run Claude Code from your phone: a Discord server as code, a mobile control room, and "only ping me when you need me" alerts. |
-| [**Agent control room**](https://github.com/FabianoArthur/Calculadora) | A live dashboard of coding agents working in parallel, driven by a deterministic, seeded simulation. React + TypeScript. |
-| [**Algorithm visualizer**](https://github.com/FabianoArthur/atividades-2) | Sorting and pathfinding algorithms animated step by step on an editable grid. |
-| [**Canvas arcade**](https://github.com/FabianoArthur/atividades3) | Classic mini-games in HTML canvas at 60 fps, with keyboard and touch controls. |
-| [**Regex playground**](https://github.com/FabianoArthur/aula-1) | Test a regular expression and read a plain-language explanation of every part of it. |
-| [**Design system**](https://github.com/FabianoArthur/teste-claude-design) | Accessible React components built on design tokens, with light and dark themes and a live docs site. |
+| [**Agent control room**](https://github.com/FabianoArthur/agent-control-room) | A live dashboard of coding agents working in parallel, driven by a deterministic, seeded simulation. React + TypeScript. |
+| [**Algorithm visualizer**](https://github.com/FabianoArthur/algorithm-visualizer) | Sorting and pathfinding algorithms animated step by step on an editable grid. |
+| [**Canvas arcade**](https://github.com/FabianoArthur/canvas-arcade) | Classic mini-games in HTML canvas at 60 fps, with keyboard and touch controls. |
+| [**Regex playground**](https://github.com/FabianoArthur/regex-playground) | Test a regular expression and read a plain-language explanation of every part of it. |
+| [**Design system**](https://github.com/FabianoArthur/brisa-design-system) | Accessible React components built on design tokens, with light and dark themes and a live docs site. |
 | [**Parking API**](https://github.com/FabianoArthur/parking-control) | Java 21 + Spring Boot 3 API for parking spots, reservations and time-based pricing. |
 | **Barbershop booking**: [web](https://github.com/FabianoArthur/barbearia-frontend) · [API](https://github.com/FabianoArthur/barbearia-backend) | A full-stack appointment app, TypeScript on both ends. |
 
@@ -49,7 +49,7 @@ The waiter/kitchen workflow is open source: see [claude-code-kitchen](https://gi
 
 ## Find me
 
-- 🗂️ Portfolio: [github.com/FabianoArthur/portifolio](https://github.com/FabianoArthur/portifolio)
+- 🗂️ Portfolio: [github.com/FabianoArthur/portfolio](https://github.com/FabianoArthur/portfolio)
 - 💼 LinkedIn: [Fabiano Arthur](https://www.linkedin.com/in/fabiano-arthur-p-c-de-oliveira-30bb39215/)
 - 🐛 Found a problem in one of my repos? Open an issue there.
 
