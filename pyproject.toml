@@ -1,0 +1,13 @@
+[project]
+name = "fabianoarthur-profile"
+version = "1.0.0"
+description = "GitHub profile README and the generator for its animated diagram."
+requires-python = ">=3.11"
+license = "MIT"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
