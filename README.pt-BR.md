@@ -28,7 +28,6 @@ O fluxo garçom/cozinha é open source: veja o [claude-code-kitchen](https://git
 | [**Arcade em canvas**](https://github.com/FabianoArthur/canvas-arcade) | Minijogos clássicos em canvas HTML a 60 fps, com controles de teclado e toque. [Demo ao vivo](https://fabianoarthur.github.io/canvas-arcade/). |
 | [**Playground de regex**](https://github.com/FabianoArthur/regex-playground) | Teste uma expressão regular e leia a explicação, em linguagem simples, de cada parte dela. [Demo ao vivo](https://fabianoarthur.github.io/regex-playground/). |
 | [**Design system**](https://github.com/FabianoArthur/brisa-design-system) | Componentes React acessíveis sobre design tokens, com temas claro e escuro e site de documentação ao vivo. [Demo ao vivo](https://fabianoarthur.github.io/brisa-design-system/). |
-| [**Pipeline de precatórios**](https://github.com/FabianoArthur/Sistema-de-Precatorio) | Pipeline de compra de precatórios: entrada com OCR, match explicável, cotações e alertas de SLA. NestJS + Prisma + React. [Demo ao vivo](https://fabianoarthur.github.io/Sistema-de-Precatorio/). |
 | [**API de estacionamento**](https://github.com/FabianoArthur/parking-control) | API em Java 21 + Spring Boot 3 para vagas, reservas e tarifação por tempo. |
 | **Agendamento de barbearia**: [web](https://github.com/FabianoArthur/barbearia-frontend) · [API](https://github.com/FabianoArthur/barbearia-backend) | App full-stack de agendamento, TypeScript nas duas pontas. [Demo ao vivo](https://fabianoarthur.github.io/barbearia-frontend/). |
 

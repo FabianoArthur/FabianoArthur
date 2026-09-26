@@ -28,7 +28,6 @@ The waiter/kitchen workflow is open source: see [claude-code-kitchen](https://gi
 | [**Canvas arcade**](https://github.com/FabianoArthur/canvas-arcade) | Classic mini-games in HTML canvas at 60 fps, with keyboard and touch controls. [Live demo](https://fabianoarthur.github.io/canvas-arcade/). |
 | [**Regex playground**](https://github.com/FabianoArthur/regex-playground) | Test a regular expression and read a plain-language explanation of every part of it. [Live demo](https://fabianoarthur.github.io/regex-playground/). |
 | [**Design system**](https://github.com/FabianoArthur/brisa-design-system) | Accessible React components built on design tokens, with light and dark themes and a live docs site. [Live demo](https://fabianoarthur.github.io/brisa-design-system/). |
-| [**Precatório pipeline**](https://github.com/FabianoArthur/Sistema-de-Precatorio) | Buy-side pipeline for Brazilian court-debt claims: OCR intake, explainable matching, quotes and SLA alerts. NestJS + Prisma + React. [Live demo](https://fabianoarthur.github.io/Sistema-de-Precatorio/). |
 | [**Parking API**](https://github.com/FabianoArthur/parking-control) | Java 21 + Spring Boot 3 API for parking spots, reservations and time-based pricing. |
 | **Barbershop booking**: [web](https://github.com/FabianoArthur/barbearia-frontend) · [API](https://github.com/FabianoArthur/barbearia-backend) | A full-stack appointment app, TypeScript on both ends. [Live demo](https://fabianoarthur.github.io/barbearia-frontend/). |
 
