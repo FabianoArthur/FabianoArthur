@@ -23,13 +23,13 @@ O fluxo garçom/cozinha é open source: veja o [claude-code-kitchen](https://git
 |---|---|
 | [**claude-code-kitchen**](https://github.com/FabianoArthur/claude-code-kitchen) | Orquestração multiagente garçom/cozinha para o Claude Code: uma sessão tmux por tarefa, git worktrees isolados, checagens determinísticas, até o PR aberto. |
 | [**claude-code-discord-hq**](https://github.com/FabianoArthur/claude-code-discord-hq) | Claude Code pelo celular: servidor do Discord como código, sala de controle no celular e alertas do tipo "só me chame quando precisar". |
-| [**Sala de controle de agentes**](https://github.com/FabianoArthur/Calculadora) | Painel ao vivo de agentes de código trabalhando em paralelo, movido por uma simulação determinística com seed. React + TypeScript. |
-| [**Visualizador de algoritmos**](https://github.com/FabianoArthur/atividades-2) | Algoritmos de ordenação e de busca de caminhos animados passo a passo numa grade editável. |
-| [**Arcade em canvas**](https://github.com/FabianoArthur/atividades3) | Minijogos clássicos em canvas HTML a 60 fps, com controles de teclado e toque. |
-| [**Playground de regex**](https://github.com/FabianoArthur/aula-1) | Teste uma expressão regular e leia a explicação, em linguagem simples, de cada parte dela. |
-| [**Design system**](https://github.com/FabianoArthur/teste-claude-design) | Componentes React acessíveis sobre design tokens, com temas claro e escuro e site de documentação ao vivo. |
+| [**Sala de controle de agentes**](https://github.com/FabianoArthur/agent-control-room) | Painel ao vivo de agentes de código trabalhando em paralelo, movido por uma simulação determinística com seed. React + TypeScript. [Demo ao vivo](https://fabianoarthur.github.io/agent-control-room/). |
+| [**Visualizador de algoritmos**](https://github.com/FabianoArthur/algorithm-visualizer) | Algoritmos de ordenação e de busca de caminhos animados passo a passo numa grade editável. [Demo ao vivo](https://fabianoarthur.github.io/algorithm-visualizer/). |
+| [**Arcade em canvas**](https://github.com/FabianoArthur/canvas-arcade) | Minijogos clássicos em canvas HTML a 60 fps, com controles de teclado e toque. [Demo ao vivo](https://fabianoarthur.github.io/canvas-arcade/). |
+| [**Playground de regex**](https://github.com/FabianoArthur/regex-playground) | Teste uma expressão regular e leia a explicação, em linguagem simples, de cada parte dela. [Demo ao vivo](https://fabianoarthur.github.io/regex-playground/). |
+| [**Design system**](https://github.com/FabianoArthur/brisa-design-system) | Componentes React acessíveis sobre design tokens, com temas claro e escuro e site de documentação ao vivo. [Demo ao vivo](https://fabianoarthur.github.io/brisa-design-system/). |
 | [**API de estacionamento**](https://github.com/FabianoArthur/parking-control) | API em Java 21 + Spring Boot 3 para vagas, reservas e tarifação por tempo. |
-| **Agendamento de barbearia**: [web](https://github.com/FabianoArthur/barbearia-frontend) · [API](https://github.com/FabianoArthur/barbearia-backend) | App full-stack de agendamento, TypeScript nas duas pontas. |
+| **Agendamento de barbearia**: [web](https://github.com/FabianoArthur/barbearia-frontend) · [API](https://github.com/FabianoArthur/barbearia-backend) | App full-stack de agendamento, TypeScript nas duas pontas. [Demo ao vivo](https://fabianoarthur.github.io/barbearia-frontend/). |
 
 ## Stack
 
@@ -49,8 +49,8 @@ O fluxo garçom/cozinha é open source: veja o [claude-code-kitchen](https://git
 
 ## Onde me achar
 
-- 🗂️ Portfólio: [github.com/FabianoArthur/portifolio](https://github.com/FabianoArthur/portifolio)
-- 💼 LinkedIn: [Fabiano Arthur](https://www.linkedin.com/in/fabiano-arthur-p-c-de-oliveira-30bb39215/)
+- 🗂️ Portfólio: [github.com/FabianoArthur/portfolio](https://github.com/FabianoArthur/portfolio)
+- 💼 LinkedIn: [Fabiano Arthur](https://www.linkedin.com/in/fabianoarthur/)
 - 🐛 Achou um problema em algum repo meu? Abra uma issue nele.
 
 <sub>O diagrama é um SVG feito à mão, animado só com CSS e gerado por <a href="scripts/build_diagram.py">scripts/build_diagram.py</a>.</sub>
